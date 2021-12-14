@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /resources/views/welcome.blade.php
+  - source: /welcome.blade.php
     destination: /var/www/html/
 hooks:
   BeforeInstall:
